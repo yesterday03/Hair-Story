@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="      蔡徐坤发烧62度坚持上台，双腿粉碎性骨折仍练习踢踏舞，每日练习40个小时，大小便失禁仍不去医院，累得高位截瘫还练舞，喉咙肿大30多倍坚持练发音，有全国300亿粉丝却不骄傲，每个2月29、30日慈善义演，将获得的20万亿美元捐给瑞士上不起学的孩子，为了慈善事业每天献出两大桶血，这些你们能做到吗？其实一开始我是拒绝喷蔡徐坤的，-->
+<!--        后来我试喷了一下，哇，赞率真的很高，还掉助攻，还送VIP，忙的时候可以离线喷，现在每天带着全网友一起喷，开局鸡酱法，鸡图随便爆，哇，好热血，蛮好玩的 真的服了你们这些小黑子，天天黑有意思吗？都四年了，四年了还在玩这个梗，那你们怎么不吃四年前的剩饭呢？你们已经饭发了知道吗？油饼食不食 荔枝 你要我拿什么荔枝 啊?​我爱的那个​她都被你们这么对待了，-->
+<!--        还要我怎么荔枝?啊?看着她被你们唛的狗血麟投（新菜名）我还坐视不管，这就叫做荔枝了吗？你们食不食仁纳?稻嵌会不会?你们黑她黑的那么爽，骂她骂的这么爽，最后没有仁和一个人跟他稻嵌！你们毁了她的嵌土回了她的一剩！跟你们分享一个超无语的事情，先介绍一下，我叫苏珊，就是在学校的时候，因皮肤黝黑了一点，那些人就给我取了一个很难听的外号，叫什么来着……？哦！想起来了，-->
+<!--        他们都叫我小黑子苏，这还不算，就连我暗恋的班花姬尼也过来嘲笑我，还与我站在一起做对比，然后在下面的人就纷纷喊到：姬尼实在是太美了，小黑子苏珊真碍眼！在此之后，我就变得沉默寡言，不在与他人交往，在我要想不开的时候，我唯一的朋友”律斯韩“制止了我，他警告那些骂我的人，在骂我小黑子的话，就对他们不客气！在此之后，就没有这样的事情发生了！我当时就很感动，-->
+<!--        感觉有“律斯韩“这样的朋友真好，此后，我就天天和他在一起玩耍！听说他很爱打篮球，不过技术不好，我就就陪他练习，谁知道一练习就是时长两年半啊！哈哈，还挺有意思的！"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView11" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！
+为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！
+为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！
+为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！为什么钓鱼会上瘾啊，我天天钓，也没见上瘾啊！"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

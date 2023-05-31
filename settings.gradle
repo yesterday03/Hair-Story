@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/google'}
+        maven { url 'https://maven.aliyun.com/repository/central'}
+        maven { url 'https://maven.aliyun.com/repository/public'}
+        maven { url 'https://repo1.maven.org/maven2/' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        gradlePluginPortal()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/google'}
+        maven { url 'https://maven.aliyun.com/repository/central'}
+        maven { url 'https://maven.aliyun.com/repository/public'}
+        maven { url 'https://repo1.maven.org/maven2/' }
+        mavenCentral()
+    }
+}
+rootProject.name = "Stock Diagnostic Diary"
+include ':app'

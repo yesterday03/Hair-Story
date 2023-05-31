@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@mipmap/img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_wwwwwwwwwwwwwwwwwwwww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.xuexiang.xui.widget.progress.HorizontalProgressView
+        android:id="@+id/hpv_language"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="50dp"
+        app:hpv_end_color="@color/purple_start"
+        app:hpv_end_progress="100"
+        app:hpv_isTracked="true"
+        app:hpv_progress_duration="1000"
+        app:hpv_progress_textColor="#696969"
+        app:hpv_progress_textVisibility="false"
+        app:hpv_start_color="@color/purple_light"
+        app:hpv_track_color="#f4f4f4"
+        app:hpv_track_width="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/progress_text_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/hpv_language"
+        app:layout_constraintStart_toStartOf="@+id/hpv_language"
+        app:layout_constraintTop_toBottomOf="@+id/hpv_language" />
+</androidx.constraintlayout.widget.ConstraintLayout>
